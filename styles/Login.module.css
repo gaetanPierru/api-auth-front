@@ -1,0 +1,70 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333f2;
+    border-radius: 1rem;
+    color: white;
+    padding: 3rem;
+}
+
+.loginTitle{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.loginDesc {
+    opacity: 0.6;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.forgetPassword {
+    opacity: 0.6;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+
+}
+
+.buttonLogin{
+    border-radius: 0.3rem;
+    border: 2px solid white;
+    margin: 2rem;
+    padding: 0.5rem 3rem;
+    background-color: #333333;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buttonLogin:hover {
+    background-color: rgba(255, 255, 255, 0.375);
+}
+
+.icons {
+    display: flex;
+    gap: 2rem;
+}
+
+.icons svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.inscription{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.SignUp {
+    opacity: 0.9;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.SignUp:hover {
+    color: cyan;
+}

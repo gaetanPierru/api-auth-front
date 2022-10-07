@@ -1,0 +1,61 @@
+.profilForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333f2;
+    border-radius: 1rem;
+    color: white;
+    padding: 3rem;
+    position: relative
+}
+.profilForm img {
+    position: relative !important;
+    transition: transform 6s linear;
+
+}
+
+.profilTitle{
+    font-size: 2em;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.profilDesc {
+    opacity: 0.6;
+}
+
+.input {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    width: 14rem;
+}
+
+.buttonUpdate{
+    border-radius: 0.3rem;
+    border: 2px solid white;
+    margin: 2rem;
+    padding: 0.5rem 3rem;
+    background-color: #333333;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buttonUpdate:hover {
+    background-color: rgba(255, 255, 255, 0.375);
+}
+
+.profilImage {
+    border-radius: 50%;
+    position: relative !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    border: 3px solid white !important;
+    width: 100px !important;
+    height: 100px !important;
+    z-index: 0;
+}
+
+  .profilForm img:hover {
+    transform: scale(1.5) rotate(360deg);
+  }
+
